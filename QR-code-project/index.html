@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="./src/css/output.css">
 </head>
 
-<body>
-    <!-- https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={hii} -->
-    <div id="container">
-        <div id="qr-container">
-            <img src="./images/image-qr-code.png" alt="Loading QR Code..." id="qr-code">
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div id="container" class="bg-white rounded-lg shadow-lg p-4 w-70 flex flex-col items-center justify-center gap-2">
+        <div id="qr-container" class="mb-2">
+            <img src="./images/image-qr-code.png" alt="Loading QR Code..." id="qr-code"
+                class="rounded-lg shadow-md object-cover">
         </div>
-        <h1 id="title">Improve your front-end skills by building projects</h1>
-        <p id="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        <h1 id="title" class="font-bold text-xl text-center">Improve your front-end skills by building projects</h1>
+        <p id="description" class="text-center text-sm font-medium text-gray-500">Scan the QR code to visit Frontend
+            Mentor and take your coding
+            skills to the next level</p>
     </div>
 </body>
 
